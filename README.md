@@ -1,6 +1,6 @@
 # barrans-saga API GUIDE
 
-Method: POST
+Method: POST,
 Endpoint:
 https://barrans-saga-witch.herokuapp.com/saga/programmer
 
