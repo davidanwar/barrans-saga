@@ -36,7 +36,7 @@ class ProgrammerTests {
 
 	@Test
 	@DisplayName("Number of People Killed in Year")
-	void numberOfKillYearTest() {
+	void numberOfKillInYearTest() {
 		// Tahun ke-4 ada 7 orang yang terbunuh
 		int killedPeopleInYear = personServiceImpl.numberOfKillYear(4);
 		assertEquals(7, killedPeopleInYear);
@@ -44,7 +44,7 @@ class ProgrammerTests {
 
 	@Test
 	@DisplayName("Average People Killed")
-	void averageNumberPeopleKilled() {
+	void averageNumberPeopleKilledTest() {
 		AverageKilled averageKilled = personService.averageNumberPeopleKilled(persons);
 		assertEquals(4.5, averageKilled.getAverageKilled());
 	}
